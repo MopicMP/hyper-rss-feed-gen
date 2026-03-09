@@ -1,0 +1,6 @@
+"""Hyper generate rss feed for static site"""
+
+from .core import gen
+
+__version__ = "1.0.0"
+__all__ = ["gen"]
